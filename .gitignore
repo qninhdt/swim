@@ -1,0 +1,6 @@
+bdd100k
+cropped_bdd100k
+checkpoints
+*.zip
+wandb
+__pycache__
