@@ -23,7 +23,7 @@ class BDD100KDataset(Dataset):
         self.path = path
 
     def __len__(self):
-        return len(self.labels) // 100
+        return len(self.labels)
 
     def __getitem__(self, idx):
         label = self.labels[idx]
